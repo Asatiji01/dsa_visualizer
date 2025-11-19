@@ -62,9 +62,9 @@ export default function Theory() {
           </div>
           <div>
             <Link to="/" className="btn ghost small">Back</Link>
-            <Link to={`/visualizer?algo=${algo}`} className="btn primary small" style={{ marginLeft: 8 }}>
+            {/* <Link to={`/visualizer?algo=${algo}`} className="btn primary small" style={{ marginLeft: 8 }}>
               Open Visualizer
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -120,3 +120,4 @@ export default function Theory() {
     </div>
   );
 }
+
